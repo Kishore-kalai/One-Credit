@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #ffffff;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    
+}
+
+.rp-portal-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.search-bar {
+    width: 300px;
+    height: 15px;
+    margin-left: 120px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 24px;
+    background-color: #D9D9D9;
+    border: none;
+}
+
+.header-right .account-login-logo {
+    width: 140px;
+    height: 40px;
+}
+
+.dashboard-header {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    padding: 40px 20px;
+    padding-bottom: 0%;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    padding-top: 0%;
+}
+
+.dashboard-section {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+    height: 30px;
+    width: 200px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.request-section{
+    background-color: #FFF7F7;
+}
+.dashboard-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.logout-section {
+    display: flex;
+    align-items: center;
+}
+
+.logout-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#head {
+    color: black;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logout-section {
+    padding: 10px;
+    height: 30px;
+    width: 200px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#other {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+}
+
+.logout-section .logout-logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.footer-left {
+    position: absolute;
+    bottom: 0%;
+}
+
+/* New CSS for Balance Points Section */
+.balance-points-section {
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    bottom: 10px;
+    right: 10px;
+    width: 1125px;
+    height: auto;
+    background-color: #F6EEEF;
+    border: none;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.balance-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.balance-text {
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.balance-empty-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background-color: #FFF7F7;
+    border-radius: 10px;
+    border:black;
+}
+.balance-details {
+    display: flex;
+    margin-top: 10px;
+    
+}
+.internal-marks-box{
+    margin-left: 10px;
+    
+}
+.details-box{
+    background-color: #FFF7F7;
+}
+.details-box, .internal-marks-box {
+    width: 150px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Updated CSS for Table Section inside Balance Points */
+.table-section {
+    margin-top: 20px;
+    width: auto ;
+    height:65vh;
+    background-color: #ffffff;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+
+table {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+#balance{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+}
+
+#anchor{
+    text-decoration: none;
+    color: black;
+}
+#detail{
+    text-decoration: none;
+    color: black;
+}
+#logs{
+    text-decoration: none;
+    color: black;
+}
+.request-section{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 30px;
+    width: 200px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.search{
+    width: 200px;
+    height:30px;
+    border-radius: 20px;
+    border: none;
+}
+#dt{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+}
+
+#head{
+    margin-left: 0px;
+}
+

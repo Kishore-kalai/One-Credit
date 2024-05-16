@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Credit Exemption</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="favicon.jpg">
+</head>
+
+<body>
+    <div class="container">
+        <h1>One Credit Course Exemption</h1>
+        <form id="courseForm">
+            <input type="text" id="course1" placeholder="Enter Course 1" required>
+            <input type="text" id="course2" placeholder="Enter Course 2" required>
+            <input type="text" id="course3" placeholder="Enter Course 3" required>
+            <span>Proof of Completion</span>
+            <input type="file" id="myFile" name="filename">
+            <button type="submit">Submit Courses</button>
+        </form>
+        <div id="approvalMessage"></div>
+        <div id="electives" style="display:none;">
+            <h2>Select an Available Elective Course</h2>
+            <select id="electiveCoursesList"></select>
+            <button onclick="submitElective()">Submit Elective</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
